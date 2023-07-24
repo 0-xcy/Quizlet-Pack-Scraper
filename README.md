@@ -1,4 +1,4 @@
-**Quizlet Pack Link & Pack Scraper**
+# Quizlet Pack Link & Pack Scraper
 > Scrape over 850 packs/min
 
 Requirements: 

@@ -19,7 +19,7 @@ Requirements:
 **Pack Data Scraping:** 
 1. Download the Repo and in the local directory, run ```pip install -r requirements.txt```
 2. Start Mitm Proxy and log into the Quizlet on IOS/Android
-3. Load a random Quizlet Pack and wait for a ```POST``` request to the link: ```https://api.quizlet.com/3.9/```
+3. Load a random Quizlet Pack and wait for a ```GET``` request to the link: ```https://api.quizlet.com/3.9/```
 4. Copy the ```__cf_bm=``` Token value and paste it in ```line 7``` of the ```scrape.py``` file.
 5. Copy the ```authorization``` Token value (Should be formatted as: Bearer ABC123) and paste it in ```Line 6``` of the ```scrape.py``` file.
 6. Load ```packlist.txt``` with the generated link list from ```rawpackscrape.txt``` (if you haven't already done so)
